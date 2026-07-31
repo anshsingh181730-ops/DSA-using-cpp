@@ -1,12 +1,12 @@
-# VS Code
 .vscode/
-
-# Executables
 *.exe
-
-# Object files
 *.o
 *.obj
-
-# Debug files
 *.out
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
