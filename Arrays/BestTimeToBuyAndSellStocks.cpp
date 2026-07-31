@@ -1,3 +1,16 @@
+Problem: Best Time to Buy and Sell Stock
+Platform: LeetCode (#121)
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+- Keep track of the minimum stock price seen so far.
+- Calculate the profit at each day.
+- Update the maximum profit whenever a better profit is found.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
 #include<bits/stdc++.h>
 using namespace std;
 
