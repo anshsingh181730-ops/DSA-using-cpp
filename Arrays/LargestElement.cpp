@@ -1,3 +1,20 @@
+Problem: Find the Largest Element in an Array
+Platform: DSA Striver Sheet
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+
+Initialize the maximum with the first element.
+Traverse the array.
+Update the maximum whenever a larger element is found.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+
+    
 #include<bits/stdc++.h>
 using namespace std;
 void MaxElement(int arr[], int n) {
