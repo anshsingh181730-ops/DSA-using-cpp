@@ -40,16 +40,21 @@ pair<int, int> FirstAndLastOccurence(vector<int> &arr, int n, int k) {
     return {first, last};
 }
 
+int CountOccurence(vector<int> &arr, int n, int target) {
+    pair<int, int> ans = FirstAndLastOccurence(arr, n, target);
+    if(ans.first == -1) return 0;
+    return ans.second - ans.first + 1;
+}
+
 int main() {
     int n;
-    cin >> n;
+    cin >> n; 
     int target;
     cin >> target;
     vector<int> arr(n);
-    for(int i = 0; i < n; i++) {
+    for(int i = 0; i  < n; i++) {
         cin >> arr[i];
     }
-    pair<int, int> ans = FirstAndLastOccurence(arr, n, target);
-    cout << ans.first << " " << ans.second;
+    cout << CountOccurence(arr, n, target);
     return 0;
 }
