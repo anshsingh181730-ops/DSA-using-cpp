@@ -1,3 +1,18 @@
+Problem: Count Inversions in an Array
+Platform: GeeksforGeeks
+Topic: Arrays, Merge Sort
+Difficulty: Hard
+
+Optimal Approach:
+Use Merge Sort to divide the array.
+During merging, whenever an element from the right half is smaller than an element from the left half, count all remaining elements in the left half as inversions.
+This avoids checking every pair individually.
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
