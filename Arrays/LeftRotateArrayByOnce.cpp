@@ -1,3 +1,19 @@
+Problem: Left Rotate an Array by One Place
+Platform: DSA Striver Sheet
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+Store the first element.
+Shift every remaining element one position to the left.
+Place the stored element at the last position.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+    
+
 #include<bits/stdc++.h>
 using namespace std;
 void LeftRotate(int arr[], int n) {
