@@ -1,3 +1,17 @@
+Problem: Count Subarrays With XOR as K
+Platform: GeeksforGeeks, DSA Striver Sheet
+Topic: Arrays, Hashing
+Difficulty: Medium
+
+Optimal Approach:
+Maintain a running XOR (prefix XOR).
+Use a hash map to store the frequency of previously seen prefix XOR values.
+For current XOR xr, look for xr ^ K in the map.
+Add its frequency to the answer.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
 #include<bits/stdc++.h>
 using namespace std;
 
