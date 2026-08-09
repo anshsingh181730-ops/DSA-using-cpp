@@ -1,3 +1,19 @@
+Problem: Left Rotate an Array by K Positions
+Platform: DSA Striver Sheet
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+Reduce k using k % n.
+Reverse the first k elements.
+Reverse the remaining elements.
+Reverse the complete array.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+    
 #include<bits/stdc++.h>
 using namespace std;
 
