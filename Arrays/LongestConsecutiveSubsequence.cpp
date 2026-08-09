@@ -1,3 +1,20 @@
+Problem: Longest Consecutive Sequence
+Platform: LeetCode (#128)
+Topic: Arrays, Hashing
+Difficulty: Medium
+
+Optimal Approach:
+Store all elements in an unordered set.
+Start a sequence only when x - 1 does not exist.
+Continue checking x + 1, x + 2, etc.
+Keep track of the longest sequence.
+
+Time Complexity: O(n) average
+Space Complexity: O(n)
+
+
+    
+
 #include<bits/stdc++.h>
 using namespace std;
 int Sequence(int arr[], int n) {
