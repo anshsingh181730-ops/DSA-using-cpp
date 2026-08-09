@@ -1,3 +1,17 @@
+Problem: 4Sum
+Platform: LeetCode (#18)
+Topic: Arrays, Two Pointers
+Difficulty: Medium
+
+Optimal Approach:
+Sort the array.
+Fix the first two elements using two loops.
+Use two pointers for the remaining two elements.
+Skip duplicates to avoid repeated quadruplets.
+
+Time Complexity: O(n³)
+Space Complexity: O(1) excluding the output space
+
 #include<bits/stdc++.h>
 using namespace std;
 
