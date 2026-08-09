@@ -1,3 +1,17 @@
+Problem: Check if an Array Is Sorted
+Platform: DSA Striver Sheet
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+Traverse the array from left to right.
+Compare every element with the previous element.
+If any previous element is greater than the current element, the array is not sorted.
+If no such pair exists, the array is sorted.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+    
 #include<bits/stdc++.h>
 using namespace std;
 
