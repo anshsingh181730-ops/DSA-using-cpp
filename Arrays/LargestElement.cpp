@@ -4,7 +4,6 @@ Topic: Arrays
 Difficulty: Easy
 
 Optimal Approach:
-
 Initialize the maximum with the first element.
 Traverse the array.
 Update the maximum whenever a larger element is found.
