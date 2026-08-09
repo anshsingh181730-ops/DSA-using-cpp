@@ -1,3 +1,20 @@
+Problem: Leaders in an Array
+Platform: GeeksforGeeks
+Topic: Arrays
+Difficulty: Easy
+
+Optimal Approach:
+Traverse the array from right to left.
+Maintain the maximum element seen so far.
+An element is a leader if it is greater than or equal to all elements to its right.
+Reverse the result to maintain original order.
+
+Time Complexity: O(n)
+Space Complexity: O(n) for the result
+
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
