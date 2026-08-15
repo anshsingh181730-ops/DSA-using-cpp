@@ -2,12 +2,12 @@ This repository contains my journey of learning and practicing Data Structures a
 The problems are mainly based on the Striver DSA Sheet and are organized topic-wise to make learning, revision, and tracking progress easier.
 
 Topics Covered:
-Arrays
-Basic Maths
-Basics
-Binary Search
-Hashing
-Patterns
+Arrays,
+Basic Maths,
+Basics,
+Binary Search,
+Hashing,
+Patterns,
 Sorting
 And more topics as I progress
 
