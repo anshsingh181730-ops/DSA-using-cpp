@@ -1,59 +1,35 @@
-Welcome to my Data Structures and Algorithms (DSA) using C++ repository.
+This repository contains my journey of learning and practicing Data Structures and Algorithms using C++.
+The problems are mainly based on the Striver DSA Sheet and are organized topic-wise to make learning, revision, and tracking progress easier.
 
-This repository documents my journey of learning and practicing DSA in C++, with a focus on building strong problem-solving skills, understanding core concepts, and improving algorithmic thinking.
+Topics Covered:
+Arrays
+Basic Maths
+Basics
+Binary Search
+Hashing
+Patterns
+Sorting
+And more topics as I progress
 
-The problems are primarily based on the Striver DSA Sheet and are organized topic-wise for easy navigation and revision.
-
-Goals:
-Build strong fundamentals in Data Structures and Algorithms
-Improve problem-solving and logical thinking
-Understand optimal approaches and their complexities
-Practice writing clean and efficient C++ code
-Prepare for technical interviews and coding rounds
-Maintain a structured record of my DSA progress
-Topics Covered
-Topic	Description
-Arrays	Array manipulation and common patterns
-Binary Search	Searching and binary-search-based problems
-Basic Maths	Mathematical concepts and problems
-Basics	Fundamental programming and DSA concepts
-Hashing	Hash maps, frequency counting and related problems
-Patterns	Pattern-based programming problems
-Sorting	Different sorting algorithms and applications
-
-More topics will be added as I progress.
-
-Repository Structure
+Repository Structure:
 DSA-using-cpp
-├── Arrays
-├── Basic Maths
-├── Basics
-├── Binary Search
-├── Hashing
-├── Patterns
-├── Sorting
-└── README.md
+Arrays
+Basic Maths
+Basics
+Binary Search
+Hashing
+Patterns
+Sorting
+README.md
 
-Each folder contains problems related to that particular DSA topic.
-Approach
-For every problem, my focus is on:
-Understand the Problem
-        ↓
-Find the Pattern
-        ↓
-Develop the Approach
-        ↓
-Implement in C++
-        ↓
-Analyze Time & Space Complexity
-        ↓
-Optimize if Possible
-
-I focus mainly on optimal approaches rather than simply collecting solutions.
-
-🛠️ Language & Tools
+Approach: For each problem, I focus on:
+Understanding the problem
+Finding the appropriate approach
+Writing an efficient solution
+Analyzing time and space complexity
+Improving the solution when possible
 Language: C++
-Practice Platform: Striver DSA Sheet
-Version Control: Git & GitHub
-Progress
 
+Practice Sheet: Striver DSA Sheet
+
+Goal: The goal of this repository is to build strong problem-solving and algorithmic skills, prepare for technical interviews, and maintain a record of my DSA learning journey. This repository will be continuously updated as I learn and solve more problems.
